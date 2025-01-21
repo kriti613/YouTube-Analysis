@@ -23,6 +23,55 @@ In this digital era, YouTube has emerged as a leading platform for viewing and s
 - Identification of video categories with high engagement metrics.
 - Examination of how specific features affect video performance metrics.
 
+## Flowchart
+- Below is the flowchart we followed for this sentimental analysis
+
+```plaintext
+                                        +----------------------------------+
+                                        | Load & Preprocess Data          |
+                                        | - Load CSV files                |
+                                        | - Clean and format data         |
+                                        +----------------------------------+
+                                                        |
+                                                        v
+                                        +----------------------------------+
+                                        | Sentiment Analysis (SA)         |
+                                        | - Apply NLP techniques          |
+                                        | - Calculate sentiment scores    |
+                                        | - Categorize: Positive/Negative |
+                                        +----------------------------------+
+                                                        |
+                                                        v
+                                        +----------------------------------+
+                                        | Word-Cloud Analysis (WCA)       |
+                                        | - Extract text data             |
+                                        | - Visualize common topics       |
+                                        +----------------------------------+
+                                                        |
+                                                        v
+                                        +----------------------------------+
+                                        | Emoji Analysis (EA)             |
+                                        | - Extract emojis                |
+                                        | - Analyze usage context         |
+                                        +----------------------------------+
+                                                        |
+                                                        v
+                                        +----------------------------------+
+                                        | Performance Metrics Analysis    |
+                                        | - Analyze likes, views, etc.    |
+                                        | - Identify high-engagement      |
+                                        |   categories                    |
+                                        +----------------------------------+
+                                                        |
+                                                        v
+                                        +----------------------------------+
+                                        | Export Results                  |
+                                        | - Save to CSV/JSON files        |
+                                        | - Create visualizations         |
+                                        +----------------------------------+
+
+```
+
 ## Project Components
 - **Jupyter Notebook**: Detailed analysis and findings are documented in the provided Jupyter Notebook file.
 - **Documentation**: Comprehensive documentation is included in this repository to guide you through the analysis process and findings.
